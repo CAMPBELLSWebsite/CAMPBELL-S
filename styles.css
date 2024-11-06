@@ -1,0 +1,692 @@
+div
+{
+    background-color: white;
+    text-align: center;
+}
+
+/* Used to maintain a constant white background colour. */
+
+nav
+{
+    text-align: center;
+    padding-block: 10px;
+    padding-inline: 0px;
+    font-size: 18px;
+}
+
+/* Used to centre the navigation bar and keep size and positioning same through-out website. */
+
+@media screen and (max-width: 600px)
+{
+      nav
+      {
+        text-align: center;
+        padding-block: 10px;
+        padding-inline: 0px;
+        font-size: 0.8em;
+      }
+}
+
+/* Used to centre the navigation bar and keep size and positioning same through-out website on smaller screens. */
+
+a
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+/* Used to keep constant font, spacing between pages' links and to change purple and format to have no underlining and to the new black colour. */
+
+@media screen and (max-width: 600px)
+{
+      a
+      {
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+      }
+}
+
+/* Used to keep constant font, spacing between pages' links and to change purple and format to have no underlining and to the new black colour on smaller screens. */
+
+h1
+{
+    text-align: center; 
+    font-family: times 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Used to centre the company name appearing in header of all pages and to keep styling to black, uppercase, same font, same size and bold. */
+
+@media screen and (max-width: 600px) 
+{
+    h1
+    {
+        text-align: center;
+        font-family: times 'Times New Roman', Times, serif;
+        font-size: 1em;
+        color:black;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+/* Used to centre the company name appearing in header of all pages and to keep styling to black, uppercase, same font, same size and bold on smaller screens. */
+
+h2
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    color: grey;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Used to centre all h2 headings and to keep styling a constant grey colour, capitalized, the same font, the same size and bold. */
+
+@media screen and (max-width: 600px)
+{
+      h2 
+      {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.9em;
+        color: grey;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+}
+
+/* Used to centre all h2 headings and to keep styling a constant grey colour, capitalized, the same font, the same size and bold on smaller screens. */
+
+h3
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    color: grey;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Used to centre all h3 headings and to keep styling a constant grey colour, capitalized, the same font, the same size and bold. */
+
+@media screen and (max-width: 600px)
+{
+      h3 
+      {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.8em;
+        color: grey;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+}
+
+/* Used to centre all h3 headings and to keep styling a constant grey colour, capitalized, the same font, the same size and bold on smaller screens. */
+
+h4
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    color: grey;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Used to centre all h4 headings and to keep styling a constant grey colour, capitalized, the same font, the same size and bold. */
+
+@media screen and (max-width: 600px)
+{
+      h4
+      {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.7em;
+        color: grey;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+}
+
+/* Used to centre all h4 headings and to keep styling a constant grey colour, capitalized, the same font, the same size and bold on smaller screens. */
+
+p
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+}
+
+/* Used to centre all pargraphs and to keep styling a constant grey colour, the same font, the same size and a lighter weight. */
+
+@media screen and (max-width: 600px)
+{
+      p
+      {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 8.25px;
+        color: grey;
+        font-weight: lighter;
+      }  
+}
+
+/* Used to centre all pargraphs and to keep styling a constant grey colour, the same font, the same size and a lighter weight on smaller screens. */
+
+li
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+}
+
+/* Used to centre all lists and to keep styling to a constant grey colour, the same font, the same size and a lighter weight. */
+
+@media screen and (max-width: 600px)
+{
+      li
+      {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 9px;
+        color: grey;
+        font-weight: lighter;
+      }
+}
+
+/* Used to centre all lists and to keep styling to a constant grey colour, the same font, the same size and a lighter weight on smaller screens. */
+
+
+footer
+{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-block: 30px;
+    padding-inline: 10px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/* Used to centre all footer content and to keep styling of the text to a constant black colour, the same font, the same size and a lighter weight in the correct positioning with efficient line spacing. */
+
+@media screen and (max-width: 600px)
+{
+      footer
+      {
+        text-align: center;
+        background-color: white;
+        color: black;
+        padding-block: 15px;
+        padding-inline: 5px;
+        line-height: 15px;
+        font-size: 9px;
+      }
+}
+
+/* Used to centre all footer content and to keep styling of the text to a constant black colour, the same font, the same size and a lighter weight in the correct positioning with efficient line spacing on smaller screens. */
+
+table
+{
+    margin: auto;
+    height: 600;
+    width: 600; 
+    font-size: 18px; 
+    color: grey;
+    border: 1px;
+    border-color: black;
+}
+/* Used to format table to a set height and font size with the border colour black and font colour grey. */
+
+@media screen and (max-width: 600px)
+{
+      table 
+      {
+        margin: 0 auto;
+        height: 600;
+        width: 600; 
+        font-size: 5px; 
+        color: grey;
+        border: 1px;
+        border-color: black;
+      }
+}
+
+/* Used to format table to a set height and font size with the border colour black and font colour grey on smaller screens. */
+
+#mySlides
+{
+    width: 40%;
+    Height: 40%;
+}
+
+/* Used to format the slides to a set width and height.*/
+
+@media screen and (max-width: 600px)
+{
+      #mySlides
+      {
+        width: 20%;
+        Height: 20%;
+      }
+}
+
+/* used to format the slides to a set width and height on smaller screens. */
+
+form
+{
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+}
+
+/* Used to format the forms in the centre of the page with grey text at a certain size. */
+
+@media screen and (max-width: 600px)
+{
+      form
+      {
+        text-align: center;
+        color: grey;
+        font-size: 8.25px;
+      }
+}
+
+/* Used to format the forms in the centre of the page with grey text at a certain size on smaller screens. */
+
+textarea
+{
+    height: 50px;
+    width: 200px;
+}
+
+/* Used to format the text area in form to a certain height and width. */
+
+@media screen and (max-width: 600px)
+{
+      textarea
+      {
+        height: 25px;
+        width: 100px;
+      }
+}
+
+/* Used to format the text area in form to a certain height and width on smaller screens. */
+
+iframe
+{
+    width: 600px;
+    height: 450px; 
+    border: 0px;
+}
+
+/* Used to give the Google map of where Campbell's operates a set height and width. */
+
+@media screen and (max-width: 600px)
+{
+      iframe
+      {
+        width: 300px;
+        height: 225px; 
+        border: 0px;
+      }
+}
+
+/* Used to give the Google map of where Campbell's operates a set height and width on smaller screens. */
+
+#submitform
+{
+    width: 640px;
+    height: 600px;
+}
+
+/* Used to give the form, where drawing/painting requests are made, a set width and height. */
+
+@media screen and (max-width: 600px)
+{
+      #submitform
+      {
+        width: 320px;
+        height: 300px;
+      }
+}
+
+/* Used to give the form, where drawing/painting requests are made, a set width and height on smaller screens. */
+
+#logo
+{
+    width: 240px;
+    height: 100px;
+}
+
+/* Used to give the logo in the header a set width and height. */ 
+
+@media screen and (max-width: 600px)
+{
+      #logo
+      {
+        width: 120px;
+        height: 50px;
+      }
+}
+
+/* Used to give the logo in the header a set width and height on smaller screens. */ 
+
+#logo2
+{
+    width: 120px;
+    height: 50px;
+}
+
+/* Used to give the logo in the footer a set width and height. */
+
+@media screen and (max-width: 600px)
+{
+      #logo2
+      {
+        width: 60px;
+        height: 25px;
+      }
+}
+
+/* Used to give the logo in the footer a set width and height on smaller screens. */ 
+
+#coverimage
+{ 
+    height: 520px;
+    width: 360px;
+}
+
+/* Used to give the images used on the home page and about us page a set width and height. */ 
+
+@media screen and (max-width: 600px)
+{
+      #coverimage
+      {
+        height: 260px;
+        width: 180px;
+      }
+}
+
+/* Used to give the images used on the home page and about us page a set width and height on smaller screens. */ 
+
+
+img
+{
+    height: 500px;
+    width: 340px;
+}
+
+/* Used to give the images used on the products and services and the gallary page a set width and height. */ 
+
+@media screen and (max-width: 600px)
+{
+      img 
+      {
+        height: 140px;
+        width: 95px
+      }
+}
+
+/* Used to give the images used on the products and services and the gallary page a set width and height on smaller screens. */ 
+        
+* 
+{
+  box-sizing: border-box;
+}
+
+/* Used to give the light box a set border. */
+
+.row > .column 
+{
+  padding: 6px 8px;
+}
+
+/* Used to give left and right padding of each column inside a row. */
+
+.row:after 
+{
+  content:"";
+  display: table;
+  clear: both;
+}
+        
+/* Used to ensure the row contains its floated child column. */
+
+@media screen and (max-width: 600px)
+{
+  .row 
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* Used to style give left and right padding of each column and center each column inside a row on smaller screens. */
+
+.column 
+{
+  float: left;
+  width: 25%;
+}
+
+/* Used to align each column to the left and each column take up a percentage of it's width. */
+
+@media screen and (max-width: 600px)
+{
+  .column 
+  {
+    width: calc(49.5% - 70px);
+    margin: 8px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+
+/* Used to adjust the width per row with gap and to adjust the space between images on smaller screens.*/
+
+.modal 
+{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+}
+
+/* Used to hide the modal by default and positions it to cover the entire screen with a white background. */
+
+@media screen and (max-width: 600px)
+{
+  .modal .column 
+  {
+    width: calc(48% - 70px);
+    margin: 8px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
+        
+/* Used to hensure each image takes up half the row's width, so that there are two images per row with space between them on smaller screens.*/
+
+.modal-content 
+{
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 96%;
+  max-width: 320;
+} 
+
+/* Used to center the modal content with a light background, makes it responsive and with a set width and max-width. */
+
+@media screen and (max-width: 600px)
+{
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto; 
+    padding: 0;
+    width: 96%;
+    max-width: 768px; 
+    box-sizing: border-box; 
+    text-align: center; 
+  }
+
+}
+
+/* Used to center the modal content with a light background, makes it responsive and with a set width and max-width for smaller screens. */
+
+.close 
+{
+  color: black;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Used to style the close button, making it large, bold, and positioned in the top-right corner. */
+
+.close:hover, .close:focus 
+{
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+       
+/* Used to change the close button's color and pointer style when hovered over or focused. */
+
+.mySlides 
+{
+  display: none;
+}
+
+/* Used to hide all slides initially. */
+
+.cursor 
+{
+  cursor: pointer;
+}
+        
+/* Used to change the cursor to a pointer when hovering over element. */
+
+.prev, .next 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 12px;
+  margin-top: -50px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+        
+/* Used to style the navigation buttons to be bold, white, and positioned in the middle of the screen, with a smooth transition effect. */
+
+.next 
+{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Used to specifically style the next button to be on the right side with rounded corners. */
+
+.prev 
+{
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+        
+/* Used to specifically style the previous button to be on the left side with rounded corners. */
+
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+        
+/* Used to change the background color of the navigation buttons when hovered over. */
+        
+.numbertext 
+{
+  background-color: transparent;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+        
+/* Used to style the text that shows the slide number, positioning it at the top of the slide. */
+
+img.gallery 
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Used to add a small negative bottom margin to images to add extra space with set width. */
+        
+.caption-container 
+{
+  text-align: center;
+  background-color: white;
+  padding: 2px 16px;
+}
+
+/* Used to center and style the caption text below each slide with a white background color. */
+
+.demo 
+{
+  opacity: 0.6;
+}
+
+/* Used to make the thumbnail images slightly transparent. */
+        
+.active, .demo:hover 
+{
+  opacity: 1;
+}
+
+/* Used to make the thumbnail fully opaque when it is active or hovered over. */
+        
+img.hover-shadow 
+{
+  transition: 0.3s;
+}
+
+/* Used tp add a smooth transition effect to images when hovered over. */
+        
+.hover-shadow:hover 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Used to add a shadow around images when hovered over, making them appear lifted. */

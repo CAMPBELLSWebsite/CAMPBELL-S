@@ -1,0 +1,109 @@
+<!-- <meta charset="utf-8" />-->
+<!--
+
+  This page will allow customers the opportunity to get hold of the business if they need further assistance, to submit a review (form) and will indicate where the company opperates from.
+  The page will include the index, company logo and name at the top of the page.
+
+  Refrences:
+   Creator: Smashicons
+   Title: Contact Icon Button
+   Year: n/a
+   Date accessed: 2024/05/22
+   Available at: "https://www.flaticon.com/free-icon/contact_1034153?term=contact+us&page=1&position=13&origin=search&related_id=1034153"
+
+   Creator: Campbell Morgan
+   Title: Campbell's Logo
+   Year: 2023
+   Date accessed: 2024/04/10
+   Available at: N/A
+
+   Artist: Campbell Morgan
+   Title: Change
+   Year: 2022
+   Date accessed: 2024/04/10
+   Location: Johannesburg
+   Name of Institution: N/A
+
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="utf-8" />
+        <title>Contact Us</title>
+        <link rel="icon" href=_images/contact.png>
+    </head>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products_services.html">Products and Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contactUs.html">Contact Us</a>
+    </nav>
+    
+
+    <div>
+        <img src="_images/logo.jpg" alt="Random Image" id="logo">
+    </div>
+
+        <h1>CAMPBELL'S</h1>
+
+    <body>
+        <h2>Contact Us</h2>
+        
+
+        <h2>Want to know more about the artist? <br>Feel free to contact us on:</h2>
+
+        
+        <li>Phone Number: 061 266 7426</li>
+        <li>Email: campbell.morg7@gmail.com</li>
+        
+
+        <h3>Feel free to submit a review below:</h3>
+
+        <div>
+            <form method="post" enctype="text/plain">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+
+                <input type="submit" value="Send">
+            </form>
+
+        </div>
+    </body>
+
+    <footer>
+        <div>
+            <contact-info>Phone: 061 266 7426</contact-info>
+        </div>
+
+        <div>
+            <contact-info>Email: campbell.morg7@gmail.com</contact-info>
+        </div>
+
+        <div>
+            <img src="_images/logo.jpg" alt="Random Image" id="logo2">
+        </div>
+
+        <div>
+            <contact-info id="DateAndTime"> </contact-info>
+        </div>
+        
+        <script>
+            document.getElementById("DateAndTime").innerHTML = Date();
+        </script>
+
+    </footer>
+
+</html>  
